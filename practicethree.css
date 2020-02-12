@@ -1,0 +1,42 @@
+header, nav, article, section, footer {
+    border: 3px solid black;
+}
+
+div {
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    grid-template-rows: repeat(4,1fr);
+}
+
+#header {
+    grid-column: 1/5;
+    grid-row: 1;
+}
+
+#ArticleOne {
+    grid-column: 1/4;
+    grid-row: 2/4;
+}
+
+
+#SectionOne {
+    grid-column: 4/5;
+    grid-row: 2;
+}
+
+#SectionTwo {
+    grid-column: 4/5;
+    grid-row: 3;
+}
+
+#second_section {
+    color: yellow;
+}
+
+.BlueText {
+    color: blue;
+}
+
+.CenterText {
+    text-align: center;
+}

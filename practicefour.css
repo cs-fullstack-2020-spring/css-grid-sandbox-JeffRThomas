@@ -1,0 +1,56 @@
+header, nav, article, section, footer {
+    border: 3px solid black;
+}
+
+div {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(6, 1fr);
+}
+
+#header {
+    grid-column: 1/4;
+    grid-row: 1;
+}
+
+#nav {
+    grid-column: 1/4;
+    grid-row: 2;
+}
+
+#ArticleOne {
+    grid-column: 1/3;
+    grid-row: 3;
+}
+
+#ArticleTwo {
+    grid-column: 1/3;
+    grid-row: 4;
+}
+
+#SectionOne {
+    grid-column: 3;
+    grid-row: 3;
+}
+
+#SectionTwo {
+    grid-column: 3;
+    grid-row: 4;
+}
+
+#footer {
+    grid-column: 1/4;
+    grid-row: 5;
+}
+
+#second_section {
+    color: yellow;
+}
+
+.BlueText {
+    color: blue;
+}
+
+.CenterText {
+    text-align: center;
+}

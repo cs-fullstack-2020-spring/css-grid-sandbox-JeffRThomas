@@ -1,0 +1,16 @@
+header, nav, article, section, footer {
+    border: 3px solid black;
+    grid-column: 1/2;
+}
+
+#second_section {
+    color: yellow;
+}
+
+.BlueText {
+    color: blue;
+}
+
+.CenterText {
+    text-align: center;
+}
