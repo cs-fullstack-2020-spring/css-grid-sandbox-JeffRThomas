@@ -4,8 +4,8 @@ header, nav, article, section, footer {
 
 div {
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: repeat(6, 1fr);
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(5, 1fr);
 }
 
 #header {
